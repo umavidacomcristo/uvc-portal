@@ -1,0 +1,24 @@
+<div class="container_login" fxLayout = "row" fxLayoutAlign = "space-around center">
+  <div  fxLayout = "column" fxLayoutAlign = "end">
+    <div class="loginForm" fxLayout = "column" fxLayoutAlign = "end center">
+      <img src="assets/images/logo-splash.png" alt="UVC logo" width="100px">
+      <p style="font-size: 20px; font-weight: bold;">Bem vindo!</p>
+      <p style="color: gray; font-weight: bold;">Por favor, informe suas credenciais</p>
+      <form [formGroup]="formLogin" style="margin-left: 10px; margin-right: 10px;">
+        <input style="margin-bottom: 10px;"type="text"
+        nbInput fullWidth status="basic" placeholder="E-mail"
+        formControlName = "login">
+        <input style="margin-bottom: 10px;" type="password"
+        nbInput fullWidth status="basic" placeholder="Senha"
+        formControlName = "password">
+        <button nbButton (click) = "onSubmit()" fullWidth shape="semi-round" status = "primary">Entrar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<nb-layout hidden = True></nb-layout>
+
+
+
+

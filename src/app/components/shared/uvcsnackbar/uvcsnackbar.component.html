@@ -1,0 +1,14 @@
+<div fxLayout="row" fxLayoutAlign = "start center">
+  <div>
+    <mat-icon>{{getIcon}}</mat-icon>
+  </div>
+  <div style="margin-left:5px;">
+    <span>{{data.message}}</span>
+  </div>
+
+  <div fxLayoutAlign = "end" *ngIf = "data.actionSnackBar.length > 0">
+    <button mat-raised-button
+  color="accent"
+  (click)="snackBarRef.dismiss()">{{data.actionSnackBar}}</button>
+  </div>
+</div>

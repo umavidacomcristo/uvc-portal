@@ -1,0 +1,26 @@
+.container_login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background: url("/assets/images/login-background.png") no-repeat;
+  background-size: cover;
+  background-color: #9b1b20;
+}
+
+.loginDesktop{
+  height: 100%;
+  width: 100%;
+  background-color: #e2262c !important;
+}
+
+.loginForm{
+  background-color: whitesmoke;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+  height: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  padding: 50px;
+}

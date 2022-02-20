@@ -1,0 +1,16 @@
+colorControl{
+  --backgroundSnack: var(--color-primary);
+}
+
+
+::ng-deep .mat-snack-bar-container {
+  background: var(--backgroundSnack);
+  //background: var(--color-primary) !important;
+  .mat-focus-indicator{
+    background: var(--color-secondary) !important;
+  }
+  .mat-button-wrapper{
+    color: white !important;
+    //background:;
+  }
+}
