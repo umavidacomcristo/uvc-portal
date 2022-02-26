@@ -1,6 +1,6 @@
 <div class="container_login" fxLayout = "row" fxLayoutAlign = "space-around center">
   <div  fxLayout = "column" fxLayoutAlign = "end">
-    <div class="loginForm" fxLayout = "column" fxLayoutAlign = "end center">
+    <div class="loginForm" fxLayout = "column" fxLayoutAlign = "end center" style="margin-left: 20px; margin-right: 20px;">
       <img src="assets/images/logo-splash.png" alt="UVC logo" width="100px">
       <p style="font-size: 20px; font-weight: bold;">Bem vindo!</p>
       <p style="color: gray; font-weight: bold;">Por favor, informe suas credenciais</p>
@@ -14,9 +14,11 @@
         <button nbButton (click) = "onSubmit()" fullWidth shape="semi-round" status = "primary">Entrar</button>
       </form>
     </div>
+    <div fxLayout="row" fxLayoutAlign = "center center">
+      <div>powered by UVC Labs</div>
+    </div>
   </div>
 </div>
-
 <nb-layout hidden = True></nb-layout>
 
 
